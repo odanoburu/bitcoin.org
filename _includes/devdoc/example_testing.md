@@ -93,7 +93,7 @@ bitcoin-cli -regtest getbalance
 
 Verify that we now have 50 bitcoins available to spend.
 
-You can now use Bitcoin Core RPCs prefixed with `bitcoin-cli -regtest`<!--noref-->.
+You can now use Bitcoin Core RPCs prefixed with `bitcoin-cli -regtest`<!--noref-->. Alternatively, if you will be using `regtest`<!--noref--> most of the time, you can specify `regtest=1` in your `bitcoin.conf` file, and you'll be able to run `bitcoin-cli` commands without the `-regtest`<!--noref--> flag.
 
 Regtest wallets and block chain state (chainstate) are saved in the `regtest`<!--noref-->
 subdirectory of the Bitcoin Core configuration directory. You can safely
